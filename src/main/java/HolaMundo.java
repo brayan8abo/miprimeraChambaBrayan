@@ -19,24 +19,26 @@ public class HolaMundo {
 			if (opcion2 == 2) {
 
 				System.out.println("AHORA ERES UN CAMELLO");
+				break;
 
 			}
 
 			if (opcion2 == 1) {
 
 				System.out.println("AHORA ERES UN MATÓN");
-
+				break;
 			}
 
 			if (opcion2 == 3) {
 
 				System.out.println("AHORA ERES UN ASESINO");
+				break;
 
 			}
 			
-			else {
-				System.out.println("ERES UN DON NADIE!!!!!!!!!!!!!!!!!");
-			}
+//			else {
+//				System.out.println("ERES UN DON NADIE!!!!!!!!!!!!!!!!!");
+//			}
 		} while (opcion == false);
 
 	}
